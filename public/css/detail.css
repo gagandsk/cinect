@@ -1,0 +1,286 @@
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 60px;
+}
+
+/* EXTRA INFO AT THE RIGHT */
+
+h5 {
+    font-size: 15px;
+}
+
+#datasheet {
+    font-size: 18px;
+}
+.more-info{
+    float: right;
+    max-height: 100%;
+}
+
+i.fas.fa-star {
+    color: yellow;
+}
+
+p.description {
+    text-align: justify;
+}
+
+.alert-success {
+    font-size: 6px;
+    padding: 3px;
+}
+
+/* SHARE */
+
+div#social-links {
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+div#social-links ul {
+    padding: 0;
+}
+
+div#social-links ul li {
+    display: inline-block;
+}
+
+div#social-links ul li a {
+    padding: 2px;
+    font-size: 12px;
+    color: #9966ff;
+}
+
+
+/* STAR */
+
+.rating {
+    overflow: hidden;
+    width: 100%;
+}
+
+.rating input {
+    float: right;
+    opacity: 0;
+    position: absolute;
+}
+
+.rating label {
+    float: right;
+    color: #aaa;
+    text-decoration: none;
+    -webkit-transition: color .4s;
+    -moz-transition: color .4s;
+    -o-transition: color .4s;
+    transition: color .4s;
+    font-size: 15px;
+}
+
+.rating label:hover~label,
+.rating input:focus~label,
+.rating label:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+/* TRAILER */
+iframe {
+    width: 75%;
+    height: 220px;
+}
+
+
+/* COMMENTS */
+
+.create_comment{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.create_comment  #description{
+    border: 1.5px solid #5A3C97;
+    padding: 5px;
+    border-radius: 10px;
+    background: none;
+    resize: none;
+    outline: none;
+    width: 75%;
+    color: #FFFFFF;
+}
+
+/*mientras esté insertando el comment a la base de datos le aplicamos esta classe*/
+.loagindEffect{
+    animation: boxShadow 2s infinite;
+    background-color: #5A3C97;
+}
+
+.img-review {
+    width: 35px;
+    height: 35px;
+}
+
+.like-review-container{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.like-review{
+    font-size: 15px;
+    vertical-align: middle;
+    padding: 5px 5px 5px 0px;
+}
+
+.like-review:hover{
+    cursor: pointer;
+}
+
+.like-review:active{
+    transform: scale(0.9);
+}
+
+.user-activity{
+    border: 1.5px solid #5A3C97;
+    padding: 10px;
+    width: 350px;
+    margin: auto;
+    transition: transform .7s;
+}
+
+.user-activity a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.user-activity__information p{
+    margin-top: 15px;
+}
+
+.user-activity__information p span{
+    /*display: block;*/
+    margin-top: 5px;
+}
+
+.user-activity:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.notification-alert{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    /*transition: 1s all;*/
+}
+
+.notification-alert:hover{
+    cursor: pointer;
+}
+
+.notification-alert div i{
+    color:#8469b9;
+    font-size:50px;
+    padding: 20px;
+
+}
+
+.review-image-information{
+    width: 150px;
+    object-fit: cover;
+}
+
+.review-detail{
+    overflow: hidden;
+}
+
+.review-detail div img{
+    width: 80px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.review-content-img{
+    display: block;
+    margin: auto;
+    object-fit: cover;
+}
+.img-profile {
+    width: 40px;
+    height: 40px;
+}
+
+.comment-container__sort-icon{
+    margin: 0px 2px;
+}
+
+
+@keyframes boxShadow {
+    50% {box-shadow: 0 5px 50px rgba(145, 92, 182, .4);}
+}
+
+
+@media screen and (min-width: 576px) {
+    .rating label {
+        float: right;
+        color: #aaa;
+        text-decoration: none;
+        -webkit-transition: color .4s;
+        -moz-transition: color .4s;
+        -o-transition: color .4s;
+        transition: color .4s;
+        font-size: 25px;
+    }
+    .img-review {
+        width: 70px;
+        height: 70px;
+    }
+    .like-review{
+        font-size: 30px;
+        vertical-align: middle;
+        padding: 5px 5px 5px 0px;
+    }
+    #datasheet div p{
+        margin: 0;
+        font-size: 15px;
+    }
+    div#social-links ul li a {
+        font-size: 25px;
+        padding: 10px;
+    }
+    .alert-success {
+        font-size: 15px;
+        padding: 8px;
+    }
+    iframe {
+        width: 600px;
+        height: 300px;
+    }
+    .img-profile {
+        width: 65px;
+        height: 65px;
+    }  
+    a.btn.button-purple#1 {
+        height: 42px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    h5 {
+        font-size: 20px;
+    }
+    #datasheet div p{
+        font-size: 20px;
+    }
+    .rating label {
+        font-size: 43px;
+    }   
+    iframe {
+        width: 660px;
+        height: 380px;
+    }
+}

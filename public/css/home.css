@@ -1,0 +1,53 @@
+
+/* Seccion carousel home */
+section.slider {
+    height: 50%;
+}
+/* POR ORDENAR */
+
+/* Title each section */
+
+
+.row>* {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+/* Carrusel arrows */
+a.btn-floating {
+    margin: 0px 7px;
+}
+
+i.fa.fa-chevron-right, 
+i.fa.fa-chevron-left {
+    color: white;
+    font-size: 15px;
+}
+
+i.fa.fa-chevron-left {
+    margin: 0px 7px 0px 0px;
+}
+
+@media screen and (min-width: 576px) {
+   h3.title {
+    font-size: 20px;
+   }
+   i.fa.fa-chevron-right, 
+    i.fa.fa-chevron-left {
+    color: white;
+    font-size: 17px;
+    padding: 0px 7px;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    i.fa.fa-chevron-right, 
+    i.fa.fa-chevron-left {
+    color: white;
+    font-size: 25px;
+    padding: 0px 7px;
+    margin: 0px 7px;
+}
+}

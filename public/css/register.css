@@ -1,0 +1,143 @@
+/* REGISTER */
+
+/* Logo */
+img.logo {
+  width: 100px;
+}
+
+body,
+.form-control,
+button {
+  font-size: 1.2rem;
+}
+
+/* Botones register-login*/
+.nav-link,
+.nav-link:hover{
+  color: white;
+}
+
+.nav-link.selectId:hover {
+  color: #5a3c97;
+}
+.nav-link.selectId.active.show:hover {
+  color: white;
+}
+
+.nav-tabs {
+  border-bottom: none;
+}
+
+.nav-link:active {
+  color: black;
+}
+
+section.section-signin-register ul.nav.nav-tabs {
+  text-align: center;
+}
+
+/* Email o username */
+.nav-link.active.selectId{
+  background: #5A3C97;
+}
+
+.nav-pills a{
+  color: #212529;
+}
+
+/* Cards */
+div.card {
+  border-top: 1px solid transparent;
+  border-radius: 0rem 0rem 0.25rem 0.25rem;
+}
+
+/* Labels */
+.form-label {
+  margin-bottom: 0.4rem;
+}
+
+/* Inputs*/
+.fa.fa-eye{ 
+  border: 1px solid rgb(206, 212, 218);
+  border-radius: 0px 4px 4px 0px;
+  padding: 11px;
+}
+.fa.fa-eye-slash {
+  border: 1px solid rgb(206, 212, 218);
+  border-radius: 0px 4px 4px 0px;
+  padding: 11px;
+}
+
+/* BUTTONS */
+.button-purple{
+  border: 2px solid #FFFFFF;
+  color: white;
+  background-color: #5A3C97;
+  margin: 0;
+}
+.button-purple:hover{
+  color: #5A3C97;
+  background-color: white;
+  border: 1.5px solid #5A3C97;
+}
+button#btn-login,
+button#btn-register{
+  font-size: 15px;
+  height: 38px;
+}
+
+@media screen and (min-width: 576px) {
+  img.logo {
+    width: 200px;
+  }
+  body,
+  .form-control,
+  button {
+    font-size: 1rem;
+  }
+
+  input.form-control,
+  .button-purple  {
+    height: 50px;
+    font-size: 1rem;
+  }
+  .fa.fa-eye{ 
+    padding: 16.5px;
+  }
+  .fa.fa-eye-slash {
+    padding: 16.5px;
+  }
+  
+  button#btn-login, button#btn-register {
+    font-size: 22px;
+    height: 52px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  img.logo {
+    width: 200px;
+  }
+  body,
+  .form-control,
+  button {
+    font-size: 1.3rem;
+  }
+
+  input.form-control,
+  .button-purple  {
+    height: 53px;
+    font-size: 17px;
+  }
+  .fa.fa-eye{ 
+    padding: 15.5px;
+  }
+  .fa.fa-eye-slash {
+    padding: 15.5px;
+  }
+  button#btn-login, button#btn-register {
+    font-size: 22px;
+    height: 52px;
+  }
+}

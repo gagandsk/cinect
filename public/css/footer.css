@@ -1,0 +1,38 @@
+/* Footer */
+footer.footer {
+  background-image: linear-gradient(to bottom, black 25%, #9966ff 150%);
+}
+
+.btn-outline-light {
+  border-color: transparent;
+}
+
+a.footer-links {
+  margin: 7px 10px;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+a.footer-links:hover {
+  text-decoration: underline;
+}
+
+div.copyright {
+  background-color: black;
+}
+
+@media screen and (min-width: 576px) {
+  a.footer-links {
+    margin: 7px 10px;
+    font-size: 20px;
+    text-decoration: none;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  a.footer-links {
+    font-size: 25px;
+    text-decoration: none;
+  }
+}

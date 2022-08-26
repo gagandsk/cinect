@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main {
+    background: #16181d;
+    padding: 0;
+    margin: 0px;
+}
+
+/* BUTTONS FILTER */
+.button-category {
+    height: 35px;
+    margin-top: 10px;
+    color: #FFFFFF;
+    background: linear-gradient(to bottom, black 25%, #9966ff 150%);;
+}
+
+a .button-category{
+    text-decoration: none;
+    color:#FFFFFF; 
+    font-weight: 450;
+}
+
+a .button-category p{
+    font-size: 8px;
+}
+
+.button-category:hover{
+    transform: scale(0.9);
+    color: #FFFFFF;
+    background: linear-gradient(to bottom, black 25%, #9966ff 150%);
+    color: white;
+}
+
+/* Content */
+.img-content{
+    width: 100%;
+    height: 100%;
+    transition: transform .8s ease;
+}
+.img-content:hover {
+    transform: scale(1.2);
+}
+
+.page-item.disabled .page-link,
+.page-link {
+    
+    color: #FFFFFF;
+    border: 1.5px solid #5A3C97;
+    background-color: #16181d;
+}
+
+.page-item.active .page-link{
+    border: 1.5px solid #5A3C97;
+    color: white;
+    background-color: #5A3C97;
+}
+
+.form-select {
+    width: 10%;
+}
+
+.search-content-info{
+    transition: transform .6s;
+}
+
+.search-content-info:hover{
+    transform: scale(1.1);
+    padding: 5px;
+}
+
+@media only screen and (min-width: 576px) {
+    a .button-category{
+        font-size: 15px;
+    } 
+    /*El area que va a ocupar la parque de 'click' */
+    a .button-category p{
+        font-size: 10px;
+    }
+    ul.pagination {
+        font-size: 11px;
+    }
+    .page-link {
+        padding: 5px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .button-category {
+        height: 50px;
+    }
+    a .button-category{
+        font-size: 17px;
+    } 
+    a .button-category p{
+        font-size: 14px;
+    }
+    ul.pagination {
+        font-size: 18px;
+    }
+    .page-link {
+        width: 40px;
+        height: 40px;
+        text-align: center;
+    }
+}

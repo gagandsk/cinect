@@ -1,0 +1,273 @@
+*{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+h1{
+    margin-left: 34px;
+    margin-top: 20px;
+}
+
+.cinet_top--content{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.cinet_top--detail{
+    border-radius: 20px;
+    overflow: hidden;
+    height: 145px;
+}
+
+.cinet_top--detail img{
+    transition: transform .8s, opacity .5s;
+}
+
+.cinet_top--content .cinet_top--detail img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*PARA QUE AL HACER HOVER EN ALGUÚNA PELI/SERIE/ANIME SU TEXTO SE MANTENGA DENTRO DEL CONTENEDOR PADRE*/
+.cinet_top--content a{
+    position: relative;
+    width: 110px;
+}
+
+
+.cinet_top--content a p{
+    transition: opacity 1s, bottom .5s;
+}
+
+.cinet_top--content a p span{
+    display: block;
+}
+
+.cinet_top--content a p span{
+    width: 35px;
+    margin: auto;
+    padding: 5px;
+    border-radius: 100px;
+    text-shadow:none;
+    background: radial-gradient(circle, rgba(174,238,190,1) 0%, rgba(148,233,148,1) 100%);
+}
+
+.cinet_top--content p{
+    text-align: center;
+    position: absolute;
+    bottom: 0.2rem;
+    color: #5A3C97;
+    font-weight: 600;
+    text-shadow: 2px 0 0 #fff, -1px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+    opacity: 0;
+}
+
+
+/*CINECT CUSTOM BANNER :D*/
+
+.cinect-carousel--container--content{
+    background-color: #16181D;
+}
+
+.cinect-carousel--container--content .accordion{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+    padding: 0;
+}
+
+.cinect-carousel--container--content .accordion .accordion-body{
+    color: #5A3C97;
+    margin-top: 60px;
+}
+
+
+.cinect-carousel--container--content .accordion .accordion-body span{
+    font-size: 50px;
+    text-shadow: 2px 0 0 #fff, -1px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+.cinect-carousel--container--content .accordion .accordion-body a{
+    width: 100px;
+}
+
+.cinect-carousel--container--content .accordion .accordion-body span, .cinect-carousel--container--content .accordion .accordion-body a{
+    display: block;
+    text-align:center;
+}
+
+.cinect-carousel--container--content .accordion .accordion-item{
+    display: flex;
+    border: none;
+    background-color: #16181D;
+}
+
+.accordion-header .accordion-button{
+    padding: 0;
+    text-align: center;
+    background-color: #16181D;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    box-shadow: none;
+    /*transition: color 1s ease-in-out, background-color 1s ease-in-out, box-shadow 1s ease-in-out !important;*/
+}
+
+.accordion-button .accordion-button--img img{
+    width: 80px;
+    height: 300px;
+    object-fit: cover;
+    opacity: .5;
+    transition: width 1s, opacity .5s;
+}
+
+
+.accordion-button:hover .accordion-button--img img{
+    width: 200px;
+    opacity: .9;
+}
+
+.accordion-button--img__identifier{
+    position: absolute;
+    left: 0;
+    text-align: start;
+    padding: 5px;
+    width: 100%;
+    color: #5A3C97;
+    opacity: .8;
+    text-shadow: 2px 0 0 #fff, -1px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+.accordion-button::after {
+    display: none;
+}
+
+.cinect-banner .carousel-indicators button{
+    background-color: #5A3C97;
+    border: 1px solid #FFFFFF;
+}
+
+
+.cinect-banner .carousel-indicators .active{
+    opacity: 1;
+}
+
+.cinect-banner .carousel-inner .carousel-item{
+    box-shadow: #000000 0px -100px 9px 9px inset;
+
+}
+
+.cinect-banner .carousel-inner .carousel-item img{
+    width: auto;
+    height: 400px;
+    object-fit: cover;
+}
+
+.cinect-banner .carousel-inner .carousel-item .carousel-caption h5, .cinect-banner .carousel-inner .carousel-item .carousel-caption p{
+    color: #5A3C97;
+    text-align: center;
+    text-shadow: 2px 0 0 #fff, -1px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+.cinect-carousel{
+    display: none;
+}
+
+
+@media screen and (min-width: 576px) {    
+    .cinect-banner .carousel-inner .carousel-item img{
+        opacity: .7;
+    }
+
+    .cinet_top--content .cinet_top--detail img{
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    .content-title{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) { 
+    .cinect-carousel{
+        display: block;
+    }
+    .cinect-banner .carousel-inner .carousel-item img{
+        opacity: .6;
+    }
+
+    .cinet_top--content .cinet_top--detail img{
+        width: 100%;
+        height: 100%;
+    }
+    .cinet_top--detail img:hover{
+        transform: scale(1.1);
+    }
+    .content-title{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .cinect-banner{
+        display: none;
+    }
+    .cinect-carousel--container--content .accordion{
+        max-width: 850px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cinet_top--content{
+        width: 100%;
+        margin: auto;
+    }
+
+    .cinet_top--detail {
+        border-radius: 20px;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+    }
+
+    .cinet_top--content a {
+        position: relative;
+        width: 135px;
+        height: 190px;
+    }
+
+    .cinet_top--content a:hover p{
+        bottom: 0.5rem;
+        opacity: 1;
+    }
+
+    .cinet_top--content a:hover .cinet_top--detail img{
+        opacity: .6;
+        transform: scale(1.1);
+    }
+
+    .cinet_top--content p {
+        width: 88%;
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 1200px) { 
+    .cinet_top--content a {
+        position: relative;
+        width: 250px;
+        height: 340px;
+    }
+
+    .cinet_top--content .cinet_top--detail img{
+        width: 100%;
+        height: 100%;
+    }
+    .cinet_top--content p {
+        width: 92%;
+        font-size: 20px;
+    }
+}

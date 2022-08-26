@@ -1,0 +1,124 @@
+
+.like-review-container{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.like-review{
+    font-size: 25px;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+
+.like-review:hover{
+    cursor: pointer;
+}
+
+.like-review:active{
+    transform: scale(0.9);
+}
+
+.user-activity{
+    border: 1px solid #5A3C97;
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+    transition: transform .7s;
+}
+
+.user-activity__information{
+    width: 58%;
+}
+
+.user-activity__information p{
+    color: #FFFFFF;
+    font-size: 8px;
+}
+
+.user-activity__information p span{
+    margin-top: 5px;
+}
+
+.user-activity:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.notification-alert{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #5A3C97;
+    border-radius: 20px;
+}
+
+.notification-alert:hover{
+    cursor: pointer;
+}
+
+.notification-alert div i{
+    color:#8469b9;
+    font-size:50px;
+    padding: 20px;
+
+}
+
+.review-image-information{
+    width: 150px;
+    object-fit: cover;
+}
+
+.review-detail{
+    overflow: hidden;
+}
+
+.review-detail div img{
+    width: 80px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.review-content-img{
+    width: 50px;
+    display: block;
+    margin: auto;
+    object-fit: cover;
+}
+
+.img-profile-activity {
+    height: 100%;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+
+@keyframes boxShadow {
+    50% {box-shadow: 0 5px 50px rgba(145, 92, 182, .4);}
+}
+
+@media screen and (min-width: 576px) { 
+    .user-activity{
+        padding: 10px;
+        width: 65%;
+    }
+    
+    .user-activity__information{
+        width: 55%;
+    }
+    
+    .user-activity__information p{
+        font-size: 18px;
+    }
+    .img-profile-activity {
+        height: 100%;
+        width: 90px;
+    }
+    .review-content-img{
+        width: 15%;
+    }
+    
+}

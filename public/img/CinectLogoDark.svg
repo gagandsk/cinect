@@ -1,0 +1,71 @@
+<svg id="Dark" xmlns="http://www.w3.org/2000/svg" width="95.35mm" height="39.41mm" viewBox="0 0 270.28 111.72">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+
+      .cls-1, .cls-3 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        font-size: 61.03px;
+        font-family: MyriadPro-Regular, Myriad Pro;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        stroke: #000;
+      }
+
+      .cls-4 {
+        letter-spacing: 0.03em;
+      }
+    </style>
+  </defs>
+  <title>CinectLogoDark</title>
+  <g id="CINE">
+    <rect class="cls-1" x="1" y="24.14" width="206.7" height="86.58"/>
+    <text class="cls-2" transform="translate(13.14 85.35)">CINE</text>
+    <g id="Cuadrados_abajo" data-name="Cuadrados abajo">
+      <rect class="cls-3" x="3.45" y="103.26" width="8.43" height="5.47"/>
+      <rect class="cls-3" x="18" y="103.26" width="8.43" height="5.47"/>
+      <rect class="cls-3" x="33" y="103.26" width="8.43" height="5.47"/>
+      <rect class="cls-3" x="48" y="103.26" width="8.43" height="5.47"/>
+      <rect class="cls-3" x="63" y="103.26" width="8.43" height="5.47"/>
+      <rect class="cls-3" x="78" y="103.26" width="8.43" height="5.47"/>
+      <rect class="cls-3" x="93" y="103.26" width="8.43" height="5.47"/>
+      <rect class="cls-3" x="108" y="103.26" width="8.43" height="5.47"/>
+      <rect class="cls-3" x="123" y="103.26" width="8.43" height="5.47"/>
+      <rect class="cls-3" x="138" y="103.26" width="8.43" height="5.47"/>
+      <rect class="cls-3" x="153" y="103.26" width="8.43" height="5.47"/>
+      <rect class="cls-3" x="168" y="103.26" width="8.43" height="5.47"/>
+      <rect class="cls-3" x="183" y="103.26" width="8.43" height="5.47"/>
+      <rect class="cls-3" x="197.48" y="103.26" width="8.43" height="5.47"/>
+    </g>
+    <g id="Cuadrados_arriba" data-name="Cuadrados arriba">
+      <rect class="cls-3" x="3.45" y="26.14" width="8.43" height="5.47"/>
+      <rect class="cls-3" x="18" y="26.14" width="8.43" height="5.47"/>
+      <rect class="cls-3" x="33" y="26.14" width="8.43" height="5.47"/>
+      <rect class="cls-3" x="48" y="26.14" width="8.43" height="5.47"/>
+      <rect class="cls-3" x="63" y="26.14" width="8.43" height="5.47"/>
+      <rect class="cls-3" x="78" y="26.14" width="8.43" height="5.47"/>
+      <rect class="cls-3" x="93" y="26.14" width="8.43" height="5.47"/>
+      <rect class="cls-3" x="108" y="26.14" width="8.43" height="5.47"/>
+      <rect class="cls-3" x="123" y="26.14" width="8.43" height="5.47"/>
+      <rect class="cls-3" x="138" y="26.14" width="8.43" height="5.47"/>
+      <rect class="cls-3" x="153" y="26.14" width="8.43" height="5.47"/>
+    </g>
+  </g>
+  <g id="CT">
+    <polygon class="cls-1" points="184.37 78.85 200.43 60.62 225.7 60.62 184.37 78.85"/>
+    <rect class="cls-1" x="165.95" y="1.62" width="103.33" height="63.11"/>
+    <polygon points="197.2 66.11 197.2 61.73 219.65 62.45 211.41 65.83 197.2 66.11"/>
+    <text class="cls-2" transform="translate(182.54 51.08)"><tspan class="cls-4">C</tspan><tspan x="37.11" y="0">T</tspan></text>
+  </g>
+</svg>

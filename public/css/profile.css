@@ -1,0 +1,19 @@
+/* Inputs*/
+input.form-control, select.form-select {
+    height: 22px;
+    font-size: 8px;
+}
+option.form-option {
+    font-size: 12px;
+}
+
+@media screen and (min-width: 576px) { 
+
+    input.form-control, select.form-select {
+        height: 45px;
+        font-size: 15px;
+    }
+    option.form-option {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,141 @@
+/* HEADER */
+header {
+  background-image: linear-gradient(to bottom, black 25%, #9966ff 150%);
+  height: 45px;
+}
+
+.navbar {
+  padding: 0px 5px;
+  height: 100%;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+/* Logo */
+
+img.logo {
+  width: 75px;
+  height: 80%;
+}
+.navbar-brand{
+  width: 50px;
+  height: 35px;
+}
+
+.user-profile-img{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 100%;
+}
+
+.dropdown-divider {
+  margin: 0.5rem 0.5rem;
+}
+
+/* MENU */
+.btn-close-white {
+  font-size: 20px;
+}
+
+.navbar-dark .navbar-toggler {
+  font-size: 17px;
+}
+
+.offcanvas-start {
+  background-image: linear-gradient(to bottom, black 50%, #9966ff 150%);
+}
+
+.offcanvas-body ul {
+  line-height: 2;
+}
+
+.menu-title {
+  color: #9966ff;
+  font-size: 40px;
+}
+
+ul.list-unstyled li a i.fas {
+  width: 23px;
+}
+
+a.menu-links {
+  margin: 10px 0px;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+a.menu-links:hover {
+  text-decoration: underline;
+}
+
+
+/* Iconos */
+
+i.fas.iconos{
+  padding: 0px 33px 0px 0px;
+  font-size: 22px;
+}
+
+i.fas.fa-dragon,
+.fa-tv{
+  font-size: 20px;
+}
+
+.fas.fa-search {
+  font-size: 20px;
+}
+
+.fas.fa-user-circle {
+  font-size: 15px;
+}
+
+@media screen and (min-width: 576px) {
+  header {
+    height: 60px;
+  }
+  .navbar {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    height: 100%;
+  }
+  .navbar-dark .navbar-toggler {
+    font-size: 20px;
+  }
+  i.fas.fa-search {
+    font-size: 19px;
+  }
+  
+  .fas.fa-user-circle {
+    font-size: 20px;
+  }
+  ul.list-unstyled li a i.fas {
+    width: 45px;
+  }
+  
+  img.logo {
+    width: 130px;
+    height: 35px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  header {
+    height: 70px;
+  }
+  
+  .navbar-dark .navbar-toggler {
+    font-size: 25px;
+  }
+  i.fas.fa-search {
+    font-size: 24px;
+  }
+  
+  .fas.fa-user-circle {
+    font-size: 25px;
+  }
+}
