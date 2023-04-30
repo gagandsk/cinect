@@ -2,7 +2,7 @@
 # /public/hot
 # /public/storage
 /storage/*.key
-vendor/
+vendor/*
 database/Cinect.sql
 node_modules/
 .env
