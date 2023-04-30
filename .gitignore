@@ -1,10 +1,11 @@
 # /node_modules
 # /public/hot
-/public/storage
+# /public/storage
 /storage/*.key
 vendor/
 database/Cinect.sql
-# .env
+node_modules/
+.env
 # .env.backup
 # .phpunit.result.cachessss
 # docker-compose.override.yml
